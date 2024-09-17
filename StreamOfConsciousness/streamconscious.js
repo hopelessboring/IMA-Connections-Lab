@@ -1,3 +1,8 @@
+// Steven Phan
+// 240917 | Stream of Consciousness 
+// this basis for this code was inspired by an example from Prof Dan O'Sullivan in his class Shared Minds. 
+// I'm building out this specific project to satisfy requirements for both Shared Minds and Connections Lab. 
+
 const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
 
@@ -181,11 +186,8 @@ function drawWord(word, ideaNodes) {
         const div7 = document.getElementById('item7');
         div7.textContent = lowCorrelationWords[7];
         updateInputBox(div7);  // Add click event to update inputBox
-    }
+    }   
 }
-
-
-
 
 function resizeCanvas() {
     const ratio = window.devicePixelRatio || 1;
