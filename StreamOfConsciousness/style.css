@@ -9,6 +9,20 @@ body, html {
     background-color: #f5f0f5;
 }
 
+.instructions {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px; 
+  line-height: 1; 
+  font-family: 'Courier New', Courier, monospace;         
+  /* transform: translate(-50%, -50%); */
+  color: black; 
+  padding: 10px;
+  /* border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);  */
+}
+
   .diagram {
     font-family: 'Courier New', Courier, monospace;
     color: #282727;  
@@ -95,15 +109,4 @@ body, html {
   font-style: italic;            /* Make placeholder text italic */
 }
 
-  /* .drawcircle  {
-    width: 80vw; 
-    height: 80vh;
-    width: 80vh; 
-    border-radius: 50%;
-    background-color: rgba(216, 143, 143, 0.1);
-    stroke: dimgray;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    } */
+

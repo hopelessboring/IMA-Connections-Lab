@@ -7,22 +7,13 @@ let lowCorrelationWords = [];
 
 const url = "https://replicate-api-proxy.glitch.me/create_n_get/";
 
+resizeCanvas();
 init();
-// draw();
 
 window.onload = function () {
     // changetext();
     myInput();
-
-    // Start logging the active element every 500 milliseconds
-    // setInterval(() => {
-    //     console.log("Current active element: ", document.activeElement);
-    // }, 500);
 };
-
-
-// // Start the draw loop
-// requestAnimationFrame(draw);
 
 function init() {
     // Perform initialization logic here
@@ -30,14 +21,6 @@ function init() {
     const ctx = canvas.getContext('2d');
     // ctx.clearRect(0, 0, canvas.width, canvas.height)
 }
-
-// function draw() {
-//     // Clear the canvas
-//     ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-//     // Loop the animation
-//     requestAnimationFrame(draw);
-// }
 
 function myInput() {
     inputBox = document.createElement('input');
@@ -49,8 +32,6 @@ function myInput() {
     inputBox.style.top = '50%';
     inputBox.style.transform = 'translate(-50%, -50%)';
     inputBox.style.zIndex = '100';
-    // inputBox.style.fontSize = '30px';
-    // inputBox.style.fontFamily = 'Arial';
     document.body.appendChild(inputBox);
 
     // Add event listener to the input box
@@ -139,30 +120,7 @@ async function askWord(word, ideaNodes) {
     
     }
 
-    // for(let x = 0; x < highCorrelationWords.length; x++)
-    // {
-    //     console.log("highCorrelationWords[" + x + "] is:");
-    //     console.log(highCorrelationWords[x]);
-    // }
-
-    // console.log("highCorrelationWords0");
-    // console.log(highCorrelationWords[0]);
-    // console.log("highCorrelationWords1");
-    // console.log(highCorrelationWords[1]);
-    // console.log("highCorrelationWords2");
-    // console.log(highCorrelationWords[2]);
-    // console.log("highCorrelationWords3");
-    // console.log(highCorrelationWords[3]);
-
-    // console.log("json response is: ")
-    // console.log(json_response);
-
-    // console.log("text response is: ");
-    // console.log(textResponse);
-
     drawWord(word, ideaNodes);
-
-    // console.log("Response", json_response, text, location);
 }
 
 function drawWord(word, ideaNodes) {
@@ -226,3 +184,14 @@ function drawWord(word, ideaNodes) {
     }
 }
 
+
+
+
+function resizeCanvas() {
+    const ratio = window.devicePixelRatio || 1;
+    canvas.width = window.innerWidth * ratio;
+    canvas.height = window.innerHeight * ratio;
+    canvas.style.width = `${window.innerWidth}px`;
+    canvas.style.height = `${window.innerHeight}px`;
+    ctx.scale(ratio, ratio);  // Scale the context based on the device's pixel ratio
+}
