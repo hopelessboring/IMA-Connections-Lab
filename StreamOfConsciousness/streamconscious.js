@@ -1,7 +1,7 @@
 // Steven Phan
 // 240917 | Stream of Consciousness 
-// this basis for this code was inspired by an example from Prof Dan O'Sullivan in his class Shared Minds. 
-// I'm building out this specific project to satisfy requirements for both Shared Minds and Connections Lab. 
+// the basis for this code was inspired by an example from Dan O'Sullivan in his NYU ITP class Shared Minds. 
+// I'm building out this specific project for a joint project in both Shared Minds and Connections Lab. 
 
 const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
