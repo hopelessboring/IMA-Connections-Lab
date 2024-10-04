@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600&display=swap">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITP/IMA Air Quality Monitor</title>
+
+   <!-- D3.js library -->
+   <script src="https://d3js.org/d3.v7.min.js"></script>
+  
+   <!-- Load common D3 functionality first -->
+   <script src="common_d3.js" defer></script>
+ 
+   <!-- Load VOCS-specific script next -->
+   <script src="vocs_d3.js" defer></script> <!-- call createD3Chart from common_d3.js -->
+
+</head>
+
+  <body id="body">
+    <div id="maintopcontainer">
+      <div class="leftbox">
+        <div id="leftcontainer1">
+          <div class="leftcontainerlinks" id="leftcontainerlinksVOCS">VOCs</div>
+          <div class="leftcontainerlinks" id="leftcontainerlinksPM2">PM2</div>
+        </div>
+        <div id="air_quality_monitor"></div>
+      </div>
+      <div class="rightbox">
+        <div id="rightcontainer1">
+          <div id="rightcontainerwarning">CURRENTLY<br> NOT SAFE</div>
+        </div>
+        <div id="rightcontainer2">
+          <div id="rightcontainermainText">VOCs</div>
+          <div id="rightcontainermainText2">(Volatile Organic Compounds) are harmful because they release toxic gases that can irritate the lungs and contribute to long-term health issues such as respiratory diseases.</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mainbottomcontainer">
+      <canvas id="mainbottomcontainerCanvas"></canvas> 
+      <div id="mainbottomcontainerText">ITP/IMA AIR QUALITY MONITOR</div>
+    </div>
+  <!-- D3.js library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- script -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
