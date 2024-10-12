@@ -1,0 +1,329 @@
+{
+  "placedata": [
+    {
+      "place": "Tokyo",
+      "population": 37393000,
+      "note": "Japan"
+    },
+    {
+      "place": "New Delhi",
+      "population": 30291000,
+      "note": "India"
+    },
+    {
+      "place": "Shanghai",
+      "population": 27058000,
+      "note": "China"
+    },
+    {
+      "place": "Sao Paulo",
+      "population": 22043000,
+      "note": "Brazil"
+    },
+    {
+      "place": "Mexico City",
+      "population": 21782000,
+      "note": "Mexico"
+    },
+    {
+      "place": "Dhaka",
+      "population": 21006000,
+      "note": "Bangladesh"
+    },
+    {
+      "place": "Cairo",
+      "population": 20901000,
+      "note": "Egypt"
+    },
+    {
+      "place": "Beijing",
+      "population": 20463000,
+      "note": "China"
+    },
+    {
+      "place": "Mumbai",
+      "population": 20411000,
+      "note": "India"
+    },
+    {
+      "place": "Osaka",
+      "population": 19165000,
+      "note": "Japan"
+    },
+    {
+      "place": "Cairo",
+      "population": 20485000,
+      "note": "Egypt"
+    },
+    {
+      "place": "Lagos",
+      "population": 13904000,
+      "note": "Nigeria"
+    },
+    {
+      "place": "Kinshasha",
+      "population": 13743000,
+      "note": "DRC"
+    },
+    {
+      "place": "Luanda",
+      "population": 8045000,
+      "note": "Angola"
+    },
+    {
+      "place": "Dar Es Salaam",
+      "population": 6368000,
+      "note": "Tanzania"
+    },
+    {
+      "place": "Khartoum",
+      "population": 5678000,
+      "note": "Sudan"
+    },
+    {
+      "place": "Johannesburg",
+      "population": 5635000,
+      "note": "South Africa"
+    },
+    {
+      "place": "Alexandria",
+      "population": 5182000,
+      "note": "Egypt"
+    },
+    {
+      "place": "Abidjan",
+      "population": 5059000,
+      "note": "Cote d'Ivoire"
+    },
+    {
+      "place": "Addis Ababa",
+      "population": 37435000,
+      "note": "Ethiopia"
+    },
+    {
+      "place": "New Delhi",
+      "population": 29399000,
+      "note": "India"
+    },
+    {
+      "place": "Shanghai",
+      "population": 26317000,
+      "note": "China"
+    },
+    {
+      "place": "Dhaka",
+      "population": 20284000,
+      "note": "Bangladesh"
+    },
+    {
+      "place": "Mumbai",
+      "population": 20185000,
+      "note": "India"
+    },
+    {
+      "place": "Beijing",
+      "population": 20035000,
+      "note": "China"
+    },
+    {
+      "place": "Osaka",
+      "population": 19223000,
+      "note": "Japan"
+    },
+    {
+      "place": "Karachi",
+      "population": 15741000,
+      "note": "Pakistan"
+    },
+    {
+      "place": "Chongqing",
+      "population": 15354000,
+      "note": "China"
+    },
+    {
+      "place": "Istanbul",
+      "population": 12476000,
+      "note": "Turkey"
+    },
+    {
+      "place": "Paris",
+      "population": 10958000,
+      "note": "France"
+    },
+    {
+      "place": "London",
+      "population": 9177000,
+      "note": "United Kingdom"
+    },
+    {
+      "place": "Madrid",
+      "population": 6559000,
+      "note": "Spain"
+    },
+    {
+      "place": "Barcelona",
+      "population": 5541000,
+      "note": "Spain"
+    },
+    {
+      "place": "Saint Petersburg",
+      "population": 5427000,
+      "note": "Russia"
+    },
+    {
+      "place": "Rome",
+      "population": 4234000,
+      "note": "Italy"
+    },
+    {
+      "place": "Berlin",
+      "population": 3557000,
+      "note": "Germany"
+    },
+    {
+      "place": "Athens",
+      "population": 3154000,
+      "note": "Greece"
+    },
+    {
+      "place": "Mexico City",
+      "population": 21672000,
+      "note": "Mexico"
+    },
+    {
+      "place": "New York",
+      "population": 18805000,
+      "note": "United States"
+    },
+    {
+      "place": "Los Angeles",
+      "population": 12448000,
+      "note": "United States"
+    },
+    {
+      "place": "Chicago",
+      "population": 8862000,
+      "note": "United States"
+    },
+    {
+      "place": "Houston",
+      "population": 6245000,
+      "note": "United States"
+    },
+    {
+      "place": "Dallas",
+      "population": 6201000,
+      "note": "United States"
+    },
+    {
+      "place": "Toronto",
+      "population": 6139000,
+      "note": "Canada"
+    },
+    {
+      "place": "Miami",
+      "population": 6079000,
+      "note": "United States"
+    },
+    {
+      "place": "Philadelphia",
+      "population": 5705000,
+      "note": "United States"
+    },
+    {
+      "place": "Melbourne",
+      "population": 4870000,
+      "note": "United States; Australia"
+    },
+    {
+      "place": "Sydney",
+      "population": 4859000,
+      "note": "Australia"
+    },
+    {
+      "place": "Brisbane",
+      "population": 2372000,
+      "note": "Australia"
+    },
+    {
+      "place": "Perth",
+      "population": 2016000,
+      "note": "Australia"
+    },
+    {
+      "place": "Auckland",
+      "population": 1582000,
+      "note": "New Zealand"
+    },
+    {
+      "place": "Adelaide",
+      "population": 1328000,
+      "note": "Australia"
+    },
+    {
+      "place": "Tweed Head",
+      "population": 687000,
+      "note": "Australia"
+    },
+    {
+      "place": "Canberra",
+      "population": 452000,
+      "note": "Australia"
+    },
+    {
+      "place": "Newcastle-Maitland",
+      "population": 447000,
+      "note": "Australia"
+    },
+    {
+      "place": "Sao Paulo",
+      "population": 21847000,
+      "note": "Brazil"
+    },
+    {
+      "place": "Buenos Aires",
+      "population": 15057000,
+      "note": "Argentina"
+    },
+    {
+      "place": "Rio De Janeiro",
+      "population": 13374000,
+      "note": "Brazil"
+    },
+    {
+      "place": "Bogota",
+      "population": 10779000,
+      "note": "Colombia"
+    },
+    {
+      "place": "Lima",
+      "population": 10555000,
+      "note": "Peru"
+    },
+    {
+      "place": "Santiago",
+      "population": 6724000,
+      "note": "Chile"
+    },
+    {
+      "place": "Belo Horizonte",
+      "population": 6028000,
+      "note": "Brazil"
+    },
+    {
+      "place": "Brasilia",
+      "population": 4559000,
+      "note": "Brazil"
+    },
+    {
+      "place": "Porto Alegre",
+      "population": 4115000,
+      "note": "Brazil"
+    },
+    {
+      "place": "Recife",
+      "population": 4078000,
+      "note": "Brazil; 2019"
+    }
+  ]
+}
