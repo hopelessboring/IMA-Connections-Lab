@@ -1,0 +1,68 @@
+{
+  "costumes": [
+    {
+      "type": "image",
+      "inputValue": "panda",
+      "Xposition": 86,
+      "Yposition": 134,
+      "rotation": 5.235987755982989,
+      "imageURL": "https://replicate.delivery/pbxt/e0B0tBGnoXW8YaF02YF9jt2T6CPfiBM9kkcrb0hCcom99DpTA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "dog",
+      "Xposition": 264,
+      "Yposition": 7,
+      "rotation": 6.981317007977318,
+      "imageURL": "https://replicate.delivery/pbxt/4ixM3bYfAQ1eKUVdye7QSsW4KatA10wscb1m1ArDtfln5PkOB/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "penguin",
+      "Xposition": 609,
+      "Yposition": 532,
+      "rotation": 1.7453292519943295,
+      "imageURL": "https://replicate.delivery/pbxt/Gmzue6cGR7zgHyBGlpim9yuoTyqG6VyqczTlwdkJ1ucz4i0JA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "labrador",
+      "Xposition": 519,
+      "Yposition": 589,
+      "rotation": 5.235987755982989,
+      "imageURL": "https://replicate.delivery/pbxt/LYkK6BtXyV7PNNTxkeehnPf0Bellez3jFBelBbUTe1z7y6i0JA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "penguin",
+      "Xposition": 304,
+      "Yposition": 594,
+      "rotation": 1.962634015954636,
+      "imageURL": "https://replicate.delivery/pbxt/5zbE9WTce5ViU69dmu2pDkkpwNRffX9dIsE1xpb8pkDF0NSnA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "fish",
+      "Xposition": 1060,
+      "Yposition": 1690,
+      "rotation": 0,
+      "imageURL": "https://replicate.delivery/pbxt/2NOKRl0pyq5CKhsCHCgsm9zKJlyazXWdJqeQt8vfEnheoPSnA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "fish",
+      "Xposition": 550,
+      "Yposition": 524,
+      "rotation": -6.981317007977318,
+      "imageURL": "https://replicate.delivery/pbxt/5aIjBB8PqO5hPFmo8iI3eCviLcHBYPKllCK3S3CfNAiu0HpTA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "pig",
+      "Xposition": 176,
+      "Yposition": 805,
+      "rotation": 6.981317007977318,
+      "imageURL": "https://replicate.delivery/pbxt/3CdnfjwsipTwB6M9oVstEfQ6k2HOE65vza1P27WO5QOpOYpTA/ComfyUI_00001_.webp"
+    }
+  ]
+}
