@@ -15,6 +15,17 @@ const defaultData = { costumes: [] };
 const adapter = new JSONFile(path.join(__dirname, 'costumes.json'));
 const db = new Low(adapter, defaultData);
 
+let port = process.env.PORT || 3000;
+app.listen(port, () => {
+console.log('listening at ', port);
+});
+
+// Start the server on port 3000 or the port defined in the environment
+// const port = process.env.PORT || 3000;
+// app.listen(port, () => {
+// console.log(`Server listening on port ${port}`);
+// });
+
 // Middleware to serve static files (e.g., HTML, CSS, client-side JS)
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -49,8 +60,3 @@ app.post('/add-costume', async (req, res) => {
   }
 });
 
-// Start the server on port 3000 or the port defined in the environment
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
-});

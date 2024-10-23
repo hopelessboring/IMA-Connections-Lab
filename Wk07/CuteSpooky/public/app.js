@@ -102,7 +102,8 @@ function myInput() {
     // Add event listener to the input box
     inputBox.addEventListener('keydown', function (event) {
         // Check if the Enter key is pressed
-        let location = { x: getRandomIntInclusive(0, canvas.width), y: getRandomIntInclusive(canvas.height / 10, canvas.height), rotation: (100 * (getRandomIntInclusive(-10, 10) * (Math.PI / 180))) };
+        // let location = { x: getRandomIntInclusive(0, canvas.width), y: getRandomIntInclusive(canvas.height / 10, canvas.height), rotation: (100 * (getRandomIntInclusive(-10, 10) * (Math.PI / 180))) }; 
+        let location = { x: getRandomIntInclusive(10, 800), y: getRandomIntInclusive(10, 600), rotation: (100 * (getRandomIntInclusive(-10, 10) * (Math.PI / 180))) };
 
         if (event.key === 'Enter') {
             const inputValue = inputBox.value;

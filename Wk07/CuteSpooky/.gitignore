@@ -1,3 +1,7 @@
+.DS_store
+node_modules
+
 node_modules
 index newer.js
 index old.js
+package copy.json
