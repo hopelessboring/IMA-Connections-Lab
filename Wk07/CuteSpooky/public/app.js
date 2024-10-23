@@ -38,7 +38,7 @@ function resizeCanvas() {
 // Fetch the costumes.json and populate the canvas with images
 async function fetchAndRenderCostumes() {
     try {
-        const response = await fetch('/costumes.json');  // Fetch the JSON file
+        const response = await fetch('../costumes.json');  // Fetch the JSON file
         const data = await response.json();  // Parse the JSON data
         console.log('Costumes data loaded successfully:');
         console.log(data);
