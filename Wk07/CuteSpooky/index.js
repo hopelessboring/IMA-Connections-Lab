@@ -17,7 +17,7 @@ const db = new Low(adapter, defaultData);
 
 let port = process.env.PORT || 3000;
 app.listen(port, () => {
-console.log('listening at ', port);
+  console.log('listening at ', port);
 });
 
 // Start the server on port 3000 or the port defined in the environment
@@ -30,7 +30,7 @@ console.log('listening at ', port);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Middleware to parse incoming JSON data
-app.use(express.json()); 
+app.use(express.json());
 
 // Initialize and read the database
 async function initializeDB() {
@@ -46,12 +46,16 @@ app.get('/costumes.json', (req, res) => {
   res.sendFile(path.join(__dirname, 'costumes.json'));
 });
 
+app.get('/data', (req, res) => {
+  res.sendFile(path.join(__dirname, 'costumes.json'));
+});
+
 // POST route to add new costume data
-app.post('/add-costume', async (req, res) => {
+app.post('/new-data', async (req, res) => {
   try {
-    const newCostume = req.body;  
-    db.data.costumes.push(newCostume); 
-    await db.write();  
+    const newCostume = req.body;
+    db.data.costumes.push(newCostume);
+    await db.write();
 
     // Respond with a success message
     res.status(200).json({ message: 'Costume added successfully!' });

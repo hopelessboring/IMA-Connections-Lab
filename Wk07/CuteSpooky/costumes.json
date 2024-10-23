@@ -18,24 +18,16 @@
     },
     {
       "type": "image",
-      "inputValue": "penguin",
-      "Xposition": 609,
-      "Yposition": 532,
-      "rotation": 1.7453292519943295,
-      "imageURL": "https://replicate.delivery/pbxt/Gmzue6cGR7zgHyBGlpim9yuoTyqG6VyqczTlwdkJ1ucz4i0JA/ComfyUI_00001_.webp"
-    },
-    {
-      "type": "image",
       "inputValue": "labrador",
       "Xposition": 519,
-      "Yposition": 589,
+      "Yposition": 689,
       "rotation": 5.235987755982989,
       "imageURL": "https://replicate.delivery/pbxt/LYkK6BtXyV7PNNTxkeehnPf0Bellez3jFBelBbUTe1z7y6i0JA/ComfyUI_00001_.webp"
     },
     {
       "type": "image",
       "inputValue": "penguin",
-      "Xposition": 304,
+      "Xposition": 1004,
       "Yposition": 594,
       "rotation": 1.962634015954636,
       "imageURL": "https://replicate.delivery/pbxt/5zbE9WTce5ViU69dmu2pDkkpwNRffX9dIsE1xpb8pkDF0NSnA/ComfyUI_00001_.webp"
@@ -51,7 +43,7 @@
     {
       "type": "image",
       "inputValue": "fish",
-      "Xposition": 550,
+      "Xposition": 750,
       "Yposition": 524,
       "rotation": -6.981317007977318,
       "imageURL": "https://replicate.delivery/pbxt/5aIjBB8PqO5hPFmo8iI3eCviLcHBYPKllCK3S3CfNAiu0HpTA/ComfyUI_00001_.webp"
@@ -63,6 +55,22 @@
       "Yposition": 805,
       "rotation": 6.981317007977318,
       "imageURL": "https://replicate.delivery/pbxt/3CdnfjwsipTwB6M9oVstEfQ6k2HOE65vza1P27WO5QOpOYpTA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "elephant",
+      "Xposition": 43,
+      "Yposition": 362,
+      "rotation": 10.471975511965978,
+      "imageURL": "https://replicate.delivery/pbxt/8FYIT464qi42I9N4FwGTS8AsrIl5jNRCtcUus5hfYzcM0w0JA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "worm",
+      "Xposition": 718,
+      "Yposition": 135,
+      "rotation": 0,
+      "imageURL": "https://replicate.delivery/pbxt/fiOXivCFwegfcpXeGEBfy2SgfO0aeOLS2d4EdB3REcJuZ0w0JA/ComfyUI_00001_.webp"
     }
   ]
 }

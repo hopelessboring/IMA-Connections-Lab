@@ -59,7 +59,7 @@ async function fetchAndRenderCostumes() {
                     ctx.save();  // Save the canvas state
                     ctx.translate(costume.Xposition + 50, costume.Yposition + 50);  // Move to the center of the image
                     ctx.rotate(costume.rotation || 0);  // Rotate the image (default to 0 if no rotation)
-                    ctx.drawImage(img, -50, -50, 100, 100);  // Draw the image at the specified position
+                    ctx.drawImage(img, -50, -50, 150, 150);  // Draw the image at the specified position
                     ctx.restore();  // Restore the previous state of the canvas
                 };
 
@@ -201,7 +201,7 @@ async function addtoDatabase(newInputData) {
     let inputObjectJSON = JSON.stringify(newInputData);
 
     try {
-        const response = await fetch('/add-costume', {
+        const response = await fetch('/new-data', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
