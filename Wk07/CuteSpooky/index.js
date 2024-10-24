@@ -16,7 +16,7 @@ const adapter = new JSONFile(path.join(__dirname, 'costumes.json'));
 const db = new Low(adapter, defaultData);
 
 let port = process.env.PORT || 3000;
-app.listen(port, () => {
+server.listen(port, () => {
   console.log('listening at ', port);
 });
 
