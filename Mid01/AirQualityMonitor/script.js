@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ///// Clears the air qual monitor container upon click //////
     function clearChart() {
       const airQualityMonitor = document.getElementById('air_quality_monitor');
-      airQualityMonitor.innerHTML = '';  // Clear the SVG elements inside the container
+      airQualityMonitor.innerHTML = '';  
     }
     
 

@@ -1,0 +1,9 @@
+node_modules
+index_deprecated
+
+/ARCHIVE/cleaning.js
+/ARCHIVE/index_deprecated.js
+/ARCHIVE/urban.json
+/ARCHIVE/style.css
+ARCHIVE/urbanlongDirty.json
+.DS_Store

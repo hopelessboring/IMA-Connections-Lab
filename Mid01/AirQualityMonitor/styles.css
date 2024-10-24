@@ -130,12 +130,12 @@ body {
 #mainbottomcontainerText {
     font-family: 'Epilogue', semi-bold;
     font-weight: 600;
-    font-size: 2vw;
+    font-size: 6vw;
     display: flex;
     position: absolute; 
     justify-content: left;
     align-items: center;
-    transform: translate(0%, 1%);
+    transform: translate(0%, 5%);
     height: inherit; 
     width: inherit; 
     text-align: center;
