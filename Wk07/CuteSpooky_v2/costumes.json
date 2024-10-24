@@ -1,0 +1,148 @@
+{
+  "costumes": [
+    {
+      "type": "image",
+      "inputValue": "panda",
+      "Xposition": 86,
+      "Yposition": 134,
+      "rotation": 5.235987755982989,
+      "imageURL": "https://replicate.delivery/pbxt/e0B0tBGnoXW8YaF02YF9jt2T6CPfiBM9kkcrb0hCcom99DpTA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "dog",
+      "Xposition": 264,
+      "Yposition": 7,
+      "rotation": 6.981317007977318,
+      "imageURL": "https://replicate.delivery/pbxt/4ixM3bYfAQ1eKUVdye7QSsW4KatA10wscb1m1ArDtfln5PkOB/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "labrador",
+      "Xposition": 519,
+      "Yposition": 589,
+      "rotation": 5.235987755982989,
+      "imageURL": "https://replicate.delivery/pbxt/LYkK6BtXyV7PNNTxkeehnPf0Bellez3jFBelBbUTe1z7y6i0JA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "penguin",
+      "Xposition": 304,
+      "Yposition": 594,
+      "rotation": 1.962634015954636,
+      "imageURL": "https://replicate.delivery/pbxt/5zbE9WTce5ViU69dmu2pDkkpwNRffX9dIsE1xpb8pkDF0NSnA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "fish",
+      "Xposition": 1060,
+      "Yposition": 1690,
+      "rotation": 0,
+      "imageURL": "https://replicate.delivery/pbxt/2NOKRl0pyq5CKhsCHCgsm9zKJlyazXWdJqeQt8vfEnheoPSnA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "fish",
+      "Xposition": 850,
+      "Yposition": 524,
+      "rotation": -6.981317007977318,
+      "imageURL": "https://replicate.delivery/pbxt/5aIjBB8PqO5hPFmo8iI3eCviLcHBYPKllCK3S3CfNAiu0HpTA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "pig",
+      "Xposition": 176,
+      "Yposition": 805,
+      "rotation": 6.981317007977318,
+      "imageURL": "https://replicate.delivery/pbxt/3CdnfjwsipTwB6M9oVstEfQ6k2HOE65vza1P27WO5QOpOYpTA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "elephant",
+      "Xposition": 883,
+      "Yposition": 362,
+      "rotation": 10.471975511965978,
+      "imageURL": "https://replicate.delivery/pbxt/8FYIT464qi42I9N4FwGTS8AsrIl5jNRCtcUus5hfYzcM0w0JA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "worm",
+      "Xposition": 618,
+      "Yposition": 135,
+      "rotation": 0,
+      "imageURL": "https://replicate.delivery/pbxt/fiOXivCFwegfcpXeGEBfy2SgfO0aeOLS2d4EdB3REcJuZ0w0JA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "chameleon",
+      "Xposition": 346,
+      "Yposition": 231,
+      "rotation": 17.453292519943293,
+      "imageURL": "https://replicate.delivery/pbxt/7RHt1lWAZE4aB9liM779zLsSeFHeBt1UQKA9iQm3vNjQoppTA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "bee",
+      "Xposition": 599,
+      "Yposition": 227,
+      "rotation": -5.235987755982989,
+      "imageURL": "https://replicate.delivery/pbxt/e3lY88Z0apRcNqF3hIdzkpZmt6frE5QKIHmG8vZf9xDte8nOB/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "iguana",
+      "Xposition": 734,
+      "Yposition": 577,
+      "rotation": 13.962634015954636,
+      "imageURL": "https://replicate.delivery/pbxt/H2qG5ryBbjJlCpI0GpRsCw6cF8tcc7t1Daw4woCO8qvJ3f0JA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "boll weevil",
+      "Xposition": 703,
+      "Yposition": 269,
+      "rotation": 12.217304763960307,
+      "imageURL": "https://replicate.delivery/pbxt/TNZj89Ke9gxmOCLhDI8OKd8070yJliqGXxUzB98fBNe55enOB/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "clam",
+      "Xposition": 725,
+      "Yposition": 124,
+      "rotation": -13.962634015954636,
+      "imageURL": "https://replicate.delivery/pbxt/A2KiwFL5JQbOMhXvPYBIojMpmbcGSh7LYPjjCZJkL50V3f0JA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "tiger",
+      "Xposition": 523,
+      "Yposition": 38,
+      "rotation": -10.471975511965978,
+      "imageURL": "https://replicate.delivery/pbxt/5njxXdh559YmCNz53ZCFGzDHkP9KfrviMo43SnjL3Ep3vfpTA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "donkey",
+      "Xposition": 125,
+      "Yposition": 309,
+      "rotation": -15.707963267948966,
+      "imageURL": "https://replicate.delivery/pbxt/xBm8hb1tv25jKRscOauH0Uh0VQDbkEG4njhunkeIfFq3gfTnA/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "butterfly",
+      "Xposition": 424,
+      "Yposition": 80,
+      "rotation": -17.453292519943293,
+      "imageURL": "https://replicate.delivery/pbxt/Ce5fKqXXfzWRSoVqpl3bCJ4knLZ54i7rMvUyeor6DvjKIePdC/ComfyUI_00001_.webp"
+    },
+    {
+      "type": "image",
+      "inputValue": "beetle",
+      "Xposition": 23,
+      "Yposition": 150,
+      "rotation": -6.981317007977318,
+      "imageURL": "https://replicate.delivery/pbxt/jSAk7ndAjeWaciFd4wObbmskYVeS3ngj3zZUBhEqXtUPifTnA/ComfyUI_00001_.webp"
+    }
+  ]
+}

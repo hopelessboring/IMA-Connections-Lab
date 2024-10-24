@@ -168,7 +168,7 @@ async function askModel(inputValue, location) {
     document.body.style.cursor = "auto";
 }
 
-function addImageRemote(imgURL, inputValue, pos) {
+async function addImageRemote(imgURL, inputValue, pos) {
     console.log("add image remote fired");
     console.log("addImageRemote", imgURL, inputValue, pos);
     console.log("location x is: ")
@@ -180,7 +180,10 @@ function addImageRemote(imgURL, inputValue, pos) {
     // let title = document.getElementById("title").value;
     const newInputData = { type: "image", inputValue: inputValue, Xposition: pos.x, Yposition: pos.y, rotation: pos.rotation, imageURL: imgURL };
 
-    addtoDatabase(newInputData);
+    await addtoDatabase(newInputData);
+    resizeCanvas();  // Ensure the canvas fits the window
+    myInput();
+    fetchAndRenderCostumes();  // Fetch the JSON and render the images
 }
 
 function resizeCanvas() {
@@ -202,7 +205,7 @@ async function addtoDatabase(newInputData) {
     let inputObjectJSON = JSON.stringify(newInputData);
 
     try {
-        const response = await fetch('/new-data', {
+        const response = await fetch('/data', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
